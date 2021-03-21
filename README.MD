@@ -1,3 +1,6 @@
+As a highlevel approach greyscale images are captured from the train videos and converted 3 basis numpy vectors. These vectors are trained using CNN model and appropriately labelled. The test videos without the labels are then used to derive greysale image and corresponding numpy vectors. These test vector are passed through the CNN Model and their cosine similarities then observed with each of the trained vectors. The lowest match is then determined as the classified label.
+
+
 **File Structure:**
 Make sure the traindata folder has the below subfolders
 •	Training and Testing videos folders are
